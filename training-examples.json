@@ -1,0 +1,339 @@
+{
+  "groups": [
+    {
+      "id": "scene",
+      "label": "Scene",
+      "count": 322,
+      "unit": "scenes",
+      "description": "Explore the scene conditions represented in InsertWorld.",
+      "categories": [
+        {
+          "id": "strong-light",
+          "label": "Strong light",
+          "description": "Direct light creates pronounced highlights and cast shadows.",
+          "images": [
+            {
+              "src": "assets/training-strong-light-1.webp",
+              "alt": "Sunlit interior with strong window light and sharp shadows"
+            }
+          ]
+        },
+        {
+          "id": "mirrors",
+          "label": "Mirrors",
+          "description": "Mirrors introduce reflected views of objects and the surrounding scene.",
+          "images": [
+            {
+              "src": "assets/training-mirrors-1.webp",
+              "alt": "Interior with a large wall mirror"
+            }
+          ]
+        },
+        {
+          "id": "reflective-surfaces",
+          "label": "Reflective surfaces",
+          "description": "Glossy surfaces reflect nearby objects and illumination.",
+          "images": [
+            {
+              "src": "assets/training-reflective-surfaces-1.webp",
+              "alt": "Glossy table surface reflecting nearby objects"
+            }
+          ]
+        },
+        {
+          "id": "low-light",
+          "label": "Low light",
+          "description": "Dim scenes require matching low illumination and local light sources.",
+          "images": [
+            {
+              "src": "assets/training-low-light-1.webp",
+              "alt": "Living room under dim lighting"
+            }
+          ]
+        },
+        {
+          "id": "perspective",
+          "label": "Perspective",
+          "description": "Scene geometry provides perspective cues for object placement.",
+          "images": [
+            {
+              "src": "assets/training-perspective-1.webp",
+              "alt": "Interior with receding architectural lines and arched windows"
+            }
+          ]
+        },
+        {
+          "id": "colored-lighting",
+          "label": "Colored lighting",
+          "description": "Colored illumination changes the appearance of scene and object materials.",
+          "images": [
+            {
+              "src": "assets/training-colored-lighting-1.webp",
+              "alt": "Miniature scene illuminated with violet and warm colored light"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "object",
+      "label": "Object",
+      "count": 1710,
+      "unit": "objects",
+      "description": "Explore object geometry and surface appearance.",
+      "categories": [
+        {
+          "id": "deformable",
+          "label": "Deformable",
+          "description": "Flexible objects include fabric and foliage.",
+          "images": [
+            {
+              "src": "assets/training-deformable-1.webp?v=ppt-alpha",
+              "alt": "Draped brown fabric"
+            },
+            {
+              "src": "assets/training-deformable-2.webp",
+              "alt": "Stack of folded white towels"
+            },
+            {
+              "src": "assets/training-deformable-3.webp",
+              "alt": "Green fabric object"
+            },
+            {
+              "src": "assets/training-deformable-4.webp",
+              "alt": "Fern with flexible leaves"
+            }
+          ]
+        },
+        {
+          "id": "rigid",
+          "label": "Rigid",
+          "description": "Rigid objects retain their shape during placement.",
+          "images": [
+            {
+              "src": "assets/training-rigid-1.webp",
+              "alt": "Decorative vase"
+            },
+            {
+              "src": "assets/training-rigid-2.webp",
+              "alt": "Rigid chair"
+            },
+            {
+              "src": "assets/training-rigid-3.webp",
+              "alt": "Stone bench"
+            },
+            {
+              "src": "assets/training-rigid-4.webp",
+              "alt": "Sculptural white bottle"
+            }
+          ]
+        },
+        {
+          "id": "smooth",
+          "label": "Smooth",
+          "description": "Smooth surfaces produce coherent highlights and reflections.",
+          "images": [
+            {
+              "src": "assets/training-smooth-1.webp?v=ppt-alpha",
+              "alt": "Pair of smooth glass bottles"
+            },
+            {
+              "src": "assets/training-smooth-2.webp",
+              "alt": "Pair of glossy dark bottles"
+            },
+            {
+              "src": "assets/training-smooth-3.webp",
+              "alt": "Smooth blue inflatable ring"
+            }
+          ]
+        },
+        {
+          "id": "rough",
+          "label": "Rough",
+          "description": "Rough surfaces have visible texture and diffuse highlights.",
+          "images": [
+            {
+              "src": "assets/training-rough-1.webp",
+              "alt": "Upholstered bed"
+            },
+            {
+              "src": "assets/training-rough-2.webp",
+              "alt": "Fabric armchair"
+            },
+            {
+              "src": "assets/training-rough-3.webp",
+              "alt": "Rough rocks"
+            },
+            {
+              "src": "assets/training-rough-4.webp",
+              "alt": "Textured dark mug"
+            }
+          ]
+        },
+        {
+          "id": "transparent",
+          "label": "Transparent",
+          "description": "Transparent objects transmit light and reveal background appearance.",
+          "images": [
+            {
+              "src": "assets/training-transparent-1.webp",
+              "alt": "Translucent decorative vase"
+            },
+            {
+              "src": "assets/training-transparent-2.webp",
+              "alt": "Bowl shown in the transparency examples"
+            },
+            {
+              "src": "assets/training-transparent-3.webp",
+              "alt": "Three transparent stemmed glasses"
+            }
+          ]
+        },
+        {
+          "id": "metal",
+          "label": "Metal",
+          "description": "Metallic surfaces reflect the color and lighting of their surroundings.",
+          "images": [
+            {
+              "src": "assets/training-metal-1.webp",
+              "alt": "Faceted ring-shaped object"
+            },
+            {
+              "src": "assets/training-metal-2.webp",
+              "alt": "Reflective spherical ornament on a stand"
+            },
+            {
+              "src": "assets/training-metal-3.webp",
+              "alt": "Decorated gold-colored lidded object"
+            }
+          ]
+        },
+        {
+          "id": "emissive",
+          "label": "Emissive",
+          "description": "Emissive objects act as local light sources.",
+          "images": [
+            {
+              "src": "assets/training-emissive-1.webp",
+              "alt": "Lantern light"
+            },
+            {
+              "src": "assets/training-emissive-2.webp",
+              "alt": "Decorative wall light"
+            },
+            {
+              "src": "assets/training-emissive-3.webp",
+              "alt": "Floor lamp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interaction",
+      "label": "Interaction",
+      "count": 12951,
+      "unit": "pairs",
+      "description": "Explore how inserted objects interact with a scene. Drag the divider to compare paired renders.",
+      "categories": [
+        {
+          "id": "reflection",
+          "label": "Reflection",
+          "description": "The inserted picture also appears in the neighboring mirror.",
+          "images": [],
+          "pairs": [
+            {
+              "before": "assets/training-reflection-before.webp",
+              "after": "assets/training-reflection-after.webp",
+              "alt": "The inserted picture also appears in the neighboring mirror.",
+              "beforeAlt": "Bedroom without the framed picture",
+              "afterAlt": "Bedroom with a framed picture and its reflection"
+            }
+          ]
+        },
+        {
+          "id": "occlusion",
+          "label": "Occlusion",
+          "description": "A mirror is placed behind the foreground foliage.",
+          "images": [],
+          "pairs": [
+            {
+              "before": "assets/training-occlusion-before.webp",
+              "after": "assets/training-occlusion-after.webp",
+              "alt": "A mirror is placed behind the foreground foliage.",
+              "beforeAlt": "Plant in front of a wall without a mirror",
+              "afterAlt": "Mirror inserted behind the foreground plant"
+            }
+          ]
+        },
+        {
+          "id": "shadow",
+          "label": "Shadow",
+          "description": "An inserted armchair changes the shadows around its base.",
+          "images": [],
+          "pairs": [
+            {
+              "before": "assets/training-shadow-before.webp",
+              "after": "assets/training-shadow-after.webp",
+              "alt": "An inserted armchair changes the shadows around its base.",
+              "beforeAlt": "Room without the armchair on the left",
+              "afterAlt": "Room with an inserted armchair and its shadows"
+            }
+          ]
+        },
+        {
+          "id": "fitting",
+          "label": "Fitting",
+          "description": "A spring fits between the attachment points on the lamp arm.",
+          "images": [],
+          "pairs": [
+            {
+              "before": "assets/training-fitting-before.webp",
+              "after": "assets/training-fitting-after.webp",
+              "alt": "A spring fits between the attachment points on the lamp arm.",
+              "beforeAlt": "Desk lamp arm without the upper spring",
+              "afterAlt": "Desk lamp arm with a fitted upper spring"
+            }
+          ]
+        },
+        {
+          "id": "illumination-adaptation",
+          "label": "Illumination adaptation",
+          "description": "A lantern adds local illumination to the tabletop and wall.",
+          "images": [],
+          "pairs": [
+            {
+              "before": "assets/training-illumination-adaptation-before.webp",
+              "after": "assets/training-illumination-adaptation-after.webp",
+              "alt": "A lantern adds local illumination to the tabletop and wall.",
+              "beforeAlt": "Tabletop without a lantern",
+              "afterAlt": "Tabletop with a glowing lantern and local illumination"
+            }
+          ]
+        },
+        {
+          "id": "hanging",
+          "label": "Hanging",
+          "description": "A pendant light hangs from the ceiling attachment.",
+          "images": [],
+          "pairs": [
+            {
+              "before": "assets/training-hanging-before.webp",
+              "after": "assets/training-hanging-after.webp",
+              "alt": "A pendant light hangs from the ceiling attachment.",
+              "beforeAlt": "Ceiling without the pendant light",
+              "afterAlt": "Pendant light suspended from the ceiling"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "label": "Contact",
+          "description": "Contact describes an object meeting a supporting surface.",
+          "images": [],
+          "note": "The dataset composition includes Contact; the teaser does not show a separate example for this category."
+        }
+      ]
+    }
+  ]
+}

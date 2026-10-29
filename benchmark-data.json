@@ -1,0 +1,194 @@
+{
+  "name": "PhysInsert-Bench",
+  "totalCases": 400,
+  "sceneCount": 103,
+  "majorCategoryCount": 2,
+  "displayLeafCount": 20,
+  "hierarchy": {
+    "id": "physinsert-bench",
+    "label": "PhysInsert-Bench",
+    "value": 400,
+    "percentage": 100.0,
+    "children": [
+      {
+        "id": "optical",
+        "label": "Optical",
+        "value": 180,
+        "percentage": 45.0,
+        "children": [
+          {
+            "id": "e2o",
+            "label": "E2O",
+            "value": 70,
+            "percentage": 17.5,
+            "description": "Environment-to-object interactions",
+            "children": [
+              {
+                "id": "optical-e2o-low_light",
+                "label": "Low light",
+                "value": 10,
+                "percentage": 2.5
+              },
+              {
+                "id": "optical-e2o-strong_directional",
+                "label": "Directional lighting",
+                "value": 15,
+                "percentage": 3.75
+              },
+              {
+                "id": "optical-e2o-multi_light_projection",
+                "label": "Multiple lights",
+                "value": 21,
+                "percentage": 5.25
+              },
+              {
+                "id": "optical-e2o-environment_reflection",
+                "label": "Environment reflection",
+                "value": 24,
+                "percentage": 6.0
+              }
+            ]
+          },
+          {
+            "id": "o2e",
+            "label": "O2E",
+            "value": 75,
+            "percentage": 18.75,
+            "description": "Object-to-environment interactions",
+            "children": [
+              {
+                "id": "optical-o2e-cast_shadow",
+                "label": "Cast shadows",
+                "value": 24,
+                "percentage": 6.0
+              },
+              {
+                "id": "optical-o2e-glossy_reflection",
+                "label": "Glossy reflection",
+                "value": 17,
+                "percentage": 4.25
+              },
+              {
+                "id": "optical-o2e-mirror_reflection",
+                "label": "Mirror reflection",
+                "value": 14,
+                "percentage": 3.5
+              },
+              {
+                "id": "optical-o2e-emissive_lighting",
+                "label": "Emissive lighting",
+                "value": 17,
+                "percentage": 4.25
+              },
+              {
+                "id": "optical-o2e-refraction_transmission",
+                "label": "Transmission",
+                "value": 3,
+                "percentage": 0.75
+              }
+            ]
+          },
+          {
+            "id": "mutual",
+            "label": "Mutual",
+            "value": 35,
+            "percentage": 8.75,
+            "description": "Mutual optical interactions",
+            "children": [
+              {
+                "id": "optical-mutual-emissive_low_light",
+                "label": "Emission in low light",
+                "value": 6,
+                "percentage": 1.5
+              },
+              {
+                "id": "optical-mutual-reflective_receiver",
+                "label": "Interreflection",
+                "value": 10,
+                "percentage": 2.5
+              },
+              {
+                "id": "optical-mutual-transparent_directional",
+                "label": "Relighting",
+                "value": 19,
+                "percentage": 4.75
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "structural",
+        "label": "Structural",
+        "value": 220,
+        "percentage": 55.0,
+        "children": [
+          {
+            "id": "spatial",
+            "label": "Spatial",
+            "value": 119,
+            "percentage": 29.75,
+            "children": [
+              {
+                "id": "spatial-scale",
+                "label": "Scale",
+                "value": 43,
+                "percentage": 10.75
+              },
+              {
+                "id": "spatial-viewpoint",
+                "label": "Viewpoint",
+                "value": 36,
+                "percentage": 9.0
+              },
+              {
+                "id": "spatial-occlusion",
+                "label": "Occlusion",
+                "value": 40,
+                "percentage": 10.0
+              }
+            ]
+          },
+          {
+            "id": "mechanical",
+            "label": "Mechanical",
+            "value": 101,
+            "percentage": 25.25,
+            "children": [
+              {
+                "id": "mechanical-resting",
+                "label": "Resting",
+                "value": 27,
+                "percentage": 6.75
+              },
+              {
+                "id": "mechanical-hanging",
+                "label": "Hanging",
+                "value": 21,
+                "percentage": 5.25
+              },
+              {
+                "id": "mechanical-leaning",
+                "label": "Leaning",
+                "value": 17,
+                "percentage": 4.25
+              },
+              {
+                "id": "mechanical-contained",
+                "label": "Contained",
+                "value": 23,
+                "percentage": 5.75
+              },
+              {
+                "id": "mechanical-deformable",
+                "label": "Deformable",
+                "value": 13,
+                "percentage": 3.25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+/* Consistent frames across every qualitative result group. */
+#result-groups .group-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:22px 18px;align-items:stretch}
+#result-groups .result-card{display:flex;flex-direction:column;grid-column:auto;gap:0;padding:8px;min-width:0}
+#result-groups .compare-stage{width:100%;aspect-ratio:1;flex:none;background:#fffdf8}
+#result-groups .compare-stage img{object-fit:contain;object-position:center}
+#result-groups .card-caption{display:grid;grid-template-columns:98px minmax(0,1fr);align-items:center;justify-content:start;gap:12px;min-height:122px;margin:12px 0 0;padding:0 2px 3px;text-align:left;flex:1}
+#result-groups .reference-thumb{width:98px;justify-self:start;box-sizing:border-box}
+#result-groups .reference-thumb img{width:88px;height:88px;object-fit:contain}
+#result-groups .reference-label{font-size:13px}
+#result-groups .card-caption h4{font-size:16px;line-height:1.4;font-weight:400;margin:0 0 5px}
+#result-groups .card-caption p{font-size:11px;line-height:1.5;margin:0}
+@media(min-width:1001px){
+ #result-groups{--gallery-reference-size:clamp(72px,7vw,88px)}
+ #result-groups .card-caption{grid-template-columns:var(--gallery-reference-size) minmax(0,1fr);gap:9px;min-height:110px}
+ #result-groups .reference-thumb{width:var(--gallery-reference-size)}
+ #result-groups .reference-thumb img{width:calc(var(--gallery-reference-size) - 10px);height:calc(var(--gallery-reference-size) - 10px)}
+ #result-groups .reference-label{font-size:12px}
+ #result-groups .card-caption h4{font-size:15px}
+}
+@media(max-width:1000px){#result-groups .group-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 15px}}
+@media(max-width:600px){#result-groups .group-grid{grid-template-columns:minmax(0,1fr);gap:18px}#result-groups .result-card{padding:7px}#result-groups .card-caption{grid-template-columns:102px minmax(0,1fr);min-height:126px;gap:14px}#result-groups .reference-thumb{width:102px}#result-groups .reference-thumb img{width:92px;height:92px}#result-groups .card-caption h4{font-size:17px}}
+
+/* One dataset is visible at a time; counts follow the curated selection. */
+.source-nav[role=tablist]{margin-bottom:22px;scroll-margin-top:85px}
+.source-nav [role=tab]{font-family:var(--hand);cursor:pointer;text-align:center;min-height:49px;transition:background .15s,border-color .15s,box-shadow .15s}
+.source-nav [role=tab][aria-selected=false]{background:var(--paper)}
+.source-nav [role=tab][aria-selected=true]{background:var(--group-band);box-shadow:inset 0 -3px 0 var(--group-line)}
+.source-nav [role=tab]:hover{background:var(--group-band)}
+#result-groups .result-group[hidden]{display:none!important}
+#result-groups .result-group{margin-bottom:28px}
+#result-groups .result-group:focus-visible{outline:2px solid var(--blue-line);outline-offset:5px}
+@media(prefers-reduced-motion:reduce){.source-nav [role=tab]{transition:none}}
+
+/* Keep each dataset tab in its own palette, including hover and keyboard focus. */
+.source-nav [role=tab]:hover,.source-nav [role=tab]:active{color:var(--ink);background:var(--group-band);border-color:var(--group-line)}
+.source-nav [role=tab]:focus-visible{outline-color:var(--group-line)}
+.result-curation-link{display:flex;justify-content:flex-end;margin:18px 0 -8px;font-size:12px;color:var(--muted)}
+.result-curation-link a{padding:6px 11px;border:1px solid var(--line);border-radius:7px;background:#fffdf8}
+.result-curation-link a:hover{color:var(--ink);background:#f0eadf}
+.selection-preview-notice{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:0 0 22px;padding:15px 18px;background:#fff2d4;border:1px solid #d7bc85;border-radius:10px;font-size:12px;line-height:1.6}
+.selection-preview-notice p{flex:1 1 390px}.selection-preview-notice a{color:#7b5d27;text-decoration:underline;text-underline-offset:3px}
+
+/* Keep the labels within the top margin, clear of the image boundary. */
+#result-groups .image-label{top:2px;padding:2px 7px;font-size:11px;line-height:1.2}

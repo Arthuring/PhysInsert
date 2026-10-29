@@ -1,0 +1,870 @@
+[
+  {
+    "id": "wild-toy",
+    "label": "Toy car in cool outdoor light",
+    "tags": [
+      "Lighting",
+      "PhysInsert-Bench-Wild"
+    ],
+    "dataset": "PhysInsert-Bench-Wild",
+    "width": 960,
+    "height": 640,
+    "instruction": "Place the toy duck on the sloping surface of the large grey rock, facing right. Position its four blue wheels directly on the rock surface, with bright sunlight from the top-right casting a shadow to its left.",
+    "group": "in-the-wild",
+    "gallery": true,
+    "background": "assets/selected-20261028/wild-toy-background.webp",
+    "reference": "assets/selected-20261028/wild-toy-reference.webp",
+    "ours": "assets/selected-20261028/wild-toy-ours.webp",
+    "nano_pro": "assets/selected-20261028/wild-toy-nano-pro.webp"
+  },
+  {
+    "id": "B05-F20",
+    "label": "Bonsai in outdoor light",
+    "tags": [
+      "Placement",
+      "RealBokeh × Distinctions-646"
+    ],
+    "dataset": "RealBokeh × Distinctions-646",
+    "width": 1184,
+    "height": 880,
+    "instruction": "Place the potted bonsai on the gray windowsill, immediately below and to the left of the green shutter.",
+    "group": "real-backgrounds",
+    "gallery": true,
+    "background": "assets/B05-F20-background-aligned.webp",
+    "reference": "assets/B05-F20-reference.webp",
+    "ours": "assets/B05-F20-ours.webp",
+    "nano_pro": "assets/selected-20261028/B05-F20-nano-pro.webp"
+  },
+  {
+    "id": "B06-F01",
+    "label": "Squirrel on a tree",
+    "tags": [
+      "Contact",
+      "RealBokeh × Distinctions-646"
+    ],
+    "dataset": "RealBokeh × Distinctions-646",
+    "width": 1184,
+    "height": 880,
+    "instruction": "Set the squirrel with both feet supported beside the lichen-covered trunk, near the upper edge of the leaning board.",
+    "group": "real-backgrounds",
+    "gallery": true,
+    "background": "assets/B06-F01-background-aligned.webp",
+    "reference": "assets/B06-F01-reference.webp",
+    "ours": "assets/B06-F01-ours.webp"
+  },
+  {
+    "id": "B07-F07",
+    "label": "Pumpkin in outdoor light",
+    "tags": [
+      "Lighting",
+      "RealBokeh × Distinctions-646"
+    ],
+    "dataset": "RealBokeh × Distinctions-646",
+    "width": 1184,
+    "height": 880,
+    "instruction": "Place the striped pumpkin on the circular metal cap in the lower-left foreground.",
+    "group": "real-backgrounds",
+    "gallery": true,
+    "background": "assets/B07-F07-background-aligned.webp",
+    "reference": "assets/B07-F07-reference.webp",
+    "ours": "assets/B07-F07-ours.webp",
+    "nano_pro": "assets/selected-20261028/B07-F07-nano-pro.webp"
+  },
+  {
+    "id": "B15-F06",
+    "label": "Toy in a cluttered scene",
+    "tags": [
+      "Occlusion",
+      "RealBokeh × Distinctions-646"
+    ],
+    "dataset": "RealBokeh × Distinctions-646",
+    "width": 1184,
+    "height": 880,
+    "instruction": "Place the witch figurine with pumpkin on the patterned tabletop to the right of the feathered hat and in front of the red toy car.",
+    "group": "real-backgrounds",
+    "gallery": true,
+    "background": "assets/B15-F06-background-aligned.webp",
+    "reference": "assets/B15-F06-reference.webp",
+    "ours": "assets/B15-F06-ours.webp",
+    "nano_pro": "assets/selected-20261028/B15-F06-nano-pro.webp"
+  },
+  {
+    "id": "B17-F17",
+    "label": "Wine glass in warm light",
+    "tags": [
+      "Lighting",
+      "RealBokeh × Distinctions-646"
+    ],
+    "dataset": "RealBokeh × Distinctions-646",
+    "width": 1184,
+    "height": 880,
+    "instruction": "Place the red wine glass on the restaurant table to the left of the reserved sign and to the right of the candlestick.",
+    "group": "real-backgrounds",
+    "gallery": true,
+    "background": "assets/B17-F17-background-aligned.webp",
+    "reference": "assets/B17-F17-reference.webp",
+    "ours": "assets/B17-F17-ours.webp"
+  },
+  {
+    "id": "B19-F11",
+    "label": "Teddy bear on a garden chair",
+    "tags": [
+      "Contact",
+      "RealBokeh × Distinctions-646"
+    ],
+    "dataset": "RealBokeh × Distinctions-646",
+    "width": 1184,
+    "height": 880,
+    "instruction": "Seat the teddy bear on the wooden chair seat between the armrests.",
+    "group": "real-backgrounds",
+    "gallery": true,
+    "background": "assets/B19-F11-background-aligned.webp",
+    "reference": "assets/B19-F11-reference.webp",
+    "ours": "assets/B19-F11-ours.webp",
+    "nano_pro": "assets/selected-20261028/B19-F11-nano-pro.webp"
+  },
+  {
+    "id": "B25-F16",
+    "label": "Cocktail in an indoor scene",
+    "tags": [
+      "Lighting",
+      "RealBokeh × Distinctions-646"
+    ],
+    "dataset": "RealBokeh × Distinctions-646",
+    "width": 1184,
+    "height": 880,
+    "instruction": "Place the dark cocktail on the wooden drinks table between the large glass dispenser of red drink and the dark bottle.",
+    "group": "real-backgrounds",
+    "gallery": true,
+    "background": "assets/B25-F16-background-aligned.webp",
+    "reference": "assets/B25-F16-reference.webp",
+    "ours": "assets/B25-F16-ours.webp",
+    "nano_pro": "assets/selected-20261028/B25-F16-nano-pro.webp"
+  },
+  {
+    "id": "benchmark-30",
+    "label": "Contact and cast shadows",
+    "tags": [
+      "Structural",
+      "Spatial",
+      "Occlusion"
+    ],
+    "dataset": "PhysInsert-Bench",
+    "width": 1024,
+    "height": 1024,
+    "instruction": "Position the chair on the floor along the right side of the table, centered precisely in the gap between the two pre-existing white chairs.",
+    "group": "physinsert-bench",
+    "gallery": true,
+    "background": "assets/benchmark-30-background.webp",
+    "reference": "assets/benchmark-30-reference.webp",
+    "ours": "assets/benchmark-30-ours.webp"
+  },
+  {
+    "id": "benchmark-6",
+    "label": "Perspective on a reflective surface",
+    "tags": [
+      "Structural",
+      "Spatial",
+      "Viewpoint"
+    ],
+    "dataset": "PhysInsert-Bench",
+    "width": 1024,
+    "height": 1024,
+    "instruction": "Place the display panel on the left wood-paneled wall, positioned in the open space between the tall metal cylinder on the far left and the first existing smaller wall display.",
+    "group": "physinsert-bench",
+    "gallery": true,
+    "background": "assets/benchmark-6-background.webp",
+    "reference": "assets/benchmark-6-reference.webp",
+    "ours": "assets/benchmark-6-ours.webp"
+  },
+  {
+    "id": "benchmark-68",
+    "label": "A chair in perspective",
+    "tags": [
+      "Structural",
+      "Spatial",
+      "Scale"
+    ],
+    "dataset": "PhysInsert-Bench",
+    "width": 1024,
+    "height": 1024,
+    "instruction": "Place the dining chair on the tiled floor on the left side of the dining table, positioned parallel to and just in front of the existing chair.",
+    "group": "physinsert-bench",
+    "gallery": true,
+    "background": "assets/benchmark-68-background.webp",
+    "reference": "assets/benchmark-68-reference.webp",
+    "ours": "assets/benchmark-68-ours.webp"
+  },
+  {
+    "id": "dreambooth-13",
+    "label": "Boot adapts to a bench viewpoint",
+    "tags": [
+      "Viewpoint",
+      "DreamBooth"
+    ],
+    "dataset": "DreamBooth",
+    "width": 512,
+    "height": 512,
+    "group": "dreambooth",
+    "gallery": true,
+    "background": "assets/dreambooth-13-background.webp",
+    "reference": "assets/dreambooth-13-reference.webp",
+    "ours": "assets/dreambooth-13-ours.webp"
+  },
+  {
+    "id": "dreambooth-15",
+    "label": "Monster toy on a reflective car hood",
+    "tags": [
+      "Reflection",
+      "DreamBooth"
+    ],
+    "dataset": "DreamBooth",
+    "width": 512,
+    "height": 512,
+    "group": "dreambooth",
+    "gallery": true,
+    "background": "assets/dreambooth-15-background.webp",
+    "reference": "assets/dreambooth-15-reference.webp",
+    "ours": "assets/dreambooth-15-ours.webp"
+  },
+  {
+    "id": "dreambooth-24",
+    "label": "Dog changes to a lying pose",
+    "tags": [
+      "Pose",
+      "DreamBooth"
+    ],
+    "dataset": "DreamBooth",
+    "width": 512,
+    "height": 512,
+    "group": "dreambooth",
+    "gallery": true,
+    "background": "assets/dreambooth-24-background.webp",
+    "reference": "assets/dreambooth-24-reference.webp",
+    "ours": "assets/dreambooth-24-ours.webp"
+  },
+  {
+    "id": "benchmark-50",
+    "label": "Reflective candle holders",
+    "tags": [
+      "Optical",
+      "Mutual",
+      "Relighting"
+    ],
+    "dataset": "PhysInsert-Bench",
+    "width": 1024,
+    "height": 1024,
+    "instruction": "Place the two candle holders on the wooden console table surface in the space between the sculpture's marble base on the left and the faceted planter on the right, arranging them in a diagonal line.",
+    "group": "physinsert-bench",
+    "gallery": true,
+    "background": "assets/benchmark-50-background.webp",
+    "reference": "assets/benchmark-50-reference.webp",
+    "ours": "assets/benchmark-50-ours.webp"
+  },
+  {
+    "id": "benchmark-108",
+    "label": "Bottles in warm light",
+    "tags": [
+      "Optical",
+      "O2E",
+      "Transmission"
+    ],
+    "dataset": "PhysInsert-Bench",
+    "width": 1024,
+    "height": 1024,
+    "instruction": "Place the two bottles upright on the right side of the glossy beige counter, positioned near the wooden wall and under the overhead brown fixture.",
+    "group": "physinsert-bench",
+    "gallery": true,
+    "background": "assets/benchmark-108-background.webp",
+    "reference": "assets/benchmark-108-reference.webp",
+    "ours": "assets/benchmark-108-ours.webp"
+  },
+  {
+    "id": "dreambooth-3",
+    "label": "Backpack in woodland shade",
+    "tags": [
+      "Lighting",
+      "DreamBooth"
+    ],
+    "dataset": "DreamBooth",
+    "width": 512,
+    "height": 512,
+    "group": "dreambooth",
+    "gallery": true,
+    "background": "assets/dreambooth-3-background.webp",
+    "reference": "assets/dreambooth-3-reference.webp",
+    "ours": "assets/dreambooth-3-ours.webp"
+  },
+  {
+    "id": "dreambooth-19",
+    "label": "Monster toy turns on a windowsill",
+    "tags": [
+      "Viewpoint",
+      "DreamBooth"
+    ],
+    "dataset": "DreamBooth",
+    "width": 512,
+    "height": 512,
+    "group": "dreambooth",
+    "gallery": true,
+    "background": "assets/dreambooth-19-background.webp",
+    "reference": "assets/dreambooth-19-reference.webp",
+    "ours": "assets/dreambooth-19-ours.webp"
+  },
+  {
+    "id": "dreambooth-20",
+    "label": "Duck toy in directional sunlight",
+    "tags": [
+      "Lighting",
+      "DreamBooth"
+    ],
+    "dataset": "DreamBooth",
+    "width": 512,
+    "height": 512,
+    "group": "dreambooth",
+    "gallery": true,
+    "background": "assets/dreambooth-20-background.webp",
+    "reference": "assets/dreambooth-20-reference.webp",
+    "ours": "assets/dreambooth-20-ours.webp"
+  },
+  {
+    "id": "dreambooth-21",
+    "label": "Bear plushie on a rock",
+    "tags": [
+      "Viewpoint",
+      "DreamBooth"
+    ],
+    "dataset": "DreamBooth",
+    "width": 512,
+    "height": 512,
+    "group": "dreambooth",
+    "gallery": true,
+    "background": "assets/dreambooth-21-background.webp",
+    "reference": "assets/dreambooth-21-reference.webp",
+    "ours": "assets/dreambooth-21-ours.webp"
+  },
+  {
+    "id": "dreambooth-37",
+    "label": "Teapot adapts to a tabletop viewpoint",
+    "tags": [
+      "Viewpoint",
+      "DreamBooth"
+    ],
+    "dataset": "DreamBooth",
+    "width": 512,
+    "height": 512,
+    "group": "dreambooth",
+    "gallery": true,
+    "background": "assets/dreambooth-37-background.webp",
+    "reference": "assets/dreambooth-37-reference.webp",
+    "ours": "assets/dreambooth-37-ours.webp"
+  },
+  {
+    "id": "benchmark-9",
+    "label": "Wall lights and their reflections",
+    "tags": [
+      "Optical",
+      "O2E",
+      "Mirror reflection"
+    ],
+    "dataset": "PhysInsert-Bench",
+    "width": 1024,
+    "height": 1024,
+    "instruction": "Mount the lamp onto the concrete tiled wall, positioning it above the angled wooden mirror frame and to the left of the suspended green plant.",
+    "group": "physinsert-bench",
+    "gallery": true,
+    "background": "assets/benchmark-9-background.webp",
+    "reference": "assets/benchmark-9-reference.webp",
+    "ours": "assets/benchmark-9-ours.webp"
+  },
+  {
+    "id": "benchmark-38",
+    "label": "A frame leaning into the light",
+    "tags": [
+      "Structural",
+      "Mechanical",
+      "Leaning"
+    ],
+    "dataset": "PhysInsert-Bench",
+    "width": 1024,
+    "height": 1024,
+    "instruction": "Place the framed picture on the wooden shelf, positioned behind the potted cactus and to the right of the pink pot, leaning against the light-green wall.",
+    "group": "physinsert-bench",
+    "gallery": true,
+    "background": "assets/benchmark-38-background.webp",
+    "reference": "assets/benchmark-38-reference.webp",
+    "ours": "assets/benchmark-38-ours.webp"
+  },
+  {
+    "id": "benchmark-74",
+    "label": "A sofa in directional sunlight",
+    "tags": [
+      "Optical",
+      "E2O",
+      "Directional lighting"
+    ],
+    "dataset": "PhysInsert-Bench",
+    "width": 1024,
+    "height": 1024,
+    "instruction": "Place the sofa on the foreground floor, centered in the lower-right area in front of the kitchen counter.",
+    "group": "physinsert-bench",
+    "gallery": true,
+    "background": "assets/benchmark-74-background.webp",
+    "reference": "assets/benchmark-74-reference.webp",
+    "ours": "assets/benchmark-74-ours.webp"
+  },
+  {
+    "id": "benchmark-151",
+    "label": "Shadows on stacked donuts",
+    "tags": [
+      "Optical",
+      "O2E",
+      "Cast shadows"
+    ],
+    "dataset": "PhysInsert-Bench",
+    "width": 1024,
+    "height": 1024,
+    "instruction": "Place the chocolate donut directly on top of the white-iced donut in the upper-left stack on the plate.",
+    "group": "physinsert-bench",
+    "gallery": true,
+    "background": "assets/benchmark-151-background.webp",
+    "reference": "assets/benchmark-151-reference.webp",
+    "ours": "assets/benchmark-151-ours.webp"
+  },
+  {
+    "id": "benchmark-283",
+    "label": "A bucket tucked under the shelf",
+    "tags": [
+      "Structural",
+      "Spatial",
+      "Scale"
+    ],
+    "dataset": "PhysInsert-Bench",
+    "width": 1024,
+    "height": 1024,
+    "instruction": "Place the bucket centered in the lower compartment of the right-hand wooden crate, directly underneath the large blue planter.",
+    "group": "physinsert-bench",
+    "gallery": true,
+    "background": "assets/benchmark-283-background.webp",
+    "reference": "assets/benchmark-283-reference.webp",
+    "ours": "assets/benchmark-283-ours.webp"
+  },
+  {
+    "id": "benchmark-353",
+    "label": "A kitchen appliance in window light",
+    "tags": [
+      "Optical",
+      "Mutual",
+      "Relighting"
+    ],
+    "dataset": "PhysInsert-Bench",
+    "width": 1024,
+    "height": 1024,
+    "instruction": "Place the kitchen appliance on the wooden table, positioned to the right of the pasta plate and in front of the window.",
+    "group": "physinsert-bench",
+    "gallery": true,
+    "background": "assets/benchmark-353-background.webp",
+    "reference": "assets/benchmark-353-reference.webp",
+    "ours": "assets/benchmark-353-ours.webp"
+  },
+  {
+    "id": "benchmark-384",
+    "label": "A blanket draped over the bed",
+    "tags": [
+      "Structural",
+      "Mechanical",
+      "Deformable"
+    ],
+    "dataset": "PhysInsert-Bench",
+    "width": 1024,
+    "height": 1024,
+    "instruction": "Place the blanket on the bed mattress, extending from the foot end up to just below the pillow.",
+    "group": "physinsert-bench",
+    "gallery": true,
+    "background": "assets/benchmark-384-background.webp",
+    "reference": "assets/benchmark-384-reference.webp",
+    "ours": "assets/benchmark-384-ours.webp"
+  },
+  {
+    "id": "wild-wall-art",
+    "label": "Framed art on a shiplap wall",
+    "tags": [
+      "Viewpoint",
+      "PhysInsert-Bench-Wild"
+    ],
+    "dataset": "PhysInsert-Bench-Wild",
+    "width": 960,
+    "height": 960,
+    "instruction": "Hang the framed painting flat on the left shiplap wall, positioned above the wire basket and to the left of the armchair, aligned with the wall's perspective.",
+    "group": "in-the-wild",
+    "gallery": true,
+    "background": "assets/selected-20261028/wild-wall-art-background.webp",
+    "reference": "assets/selected-20261028/wild-wall-art-reference.webp",
+    "ours": "assets/selected-20261028/wild-wall-art-ours.webp"
+  },
+  {
+    "id": "wild-bunny-racer",
+    "label": "Bunny racer in indoor light",
+    "tags": [
+      "Lighting",
+      "PhysInsert-Bench-Wild"
+    ],
+    "dataset": "PhysInsert-Bench-Wild",
+    "width": 960,
+    "height": 714,
+    "instruction": "Insert the bunny racer from the reference views into the target scene.",
+    "group": "in-the-wild",
+    "gallery": true,
+    "background": "assets/selected-20261028/wild-bunny-racer-background-aligned.webp",
+    "reference": "assets/selected-20261028/wild-bunny-racer-reference.webp",
+    "ours": "assets/selected-20261028/wild-bunny-racer-ours.webp"
+  },
+  {
+    "id": "wild-armchair-front",
+    "label": "Armchair seen from the front",
+    "tags": [
+      "Viewpoint",
+      "PhysInsert-Bench-Wild"
+    ],
+    "dataset": "PhysInsert-Bench-Wild",
+    "width": 960,
+    "height": 960,
+    "instruction": "Place the armchair on the wooden floor, angled slightly right, positioned in front of the floor lamp base and to the right of the potted plant, casting soft shadows underneath.",
+    "group": "in-the-wild",
+    "gallery": true,
+    "background": "assets/selected-20261028/wild-armchair-front-background.webp",
+    "reference": "assets/selected-20261028/wild-armchair-front-reference.webp",
+    "ours": "assets/selected-20261028/wild-armchair-front-ours.webp"
+  },
+  {
+    "id": "wild-dining-bench",
+    "label": "Wooden bench under a dining table",
+    "tags": [
+      "Placement",
+      "PhysInsert-Bench-Wild"
+    ],
+    "dataset": "PhysInsert-Bench-Wild",
+    "width": 960,
+    "height": 960,
+    "instruction": "Place the wooden bench in the foreground on the patterned rug, parallel to the dining table, matching the perspective and overhead lighting.",
+    "group": "in-the-wild",
+    "gallery": true,
+    "background": "assets/selected-20261028/wild-dining-bench-background.webp",
+    "reference": "assets/selected-20261028/wild-dining-bench-reference.webp",
+    "ours": "assets/selected-20261028/wild-dining-bench-ours.webp"
+  },
+  {
+    "id": "wild-chicken-low-view",
+    "label": "Toy racer from a low viewpoint",
+    "tags": [
+      "Viewpoint",
+      "PhysInsert-Bench-Wild"
+    ],
+    "dataset": "PhysInsert-Bench-Wild",
+    "width": 960,
+    "height": 714,
+    "instruction": "Place the toy chicken car upright on top of the wooden fence, facing slightly right, with its wheels resting on the wooden surface under natural outdoor lighting.",
+    "group": "in-the-wild",
+    "gallery": true,
+    "background": "assets/selected-20261028/wild-chicken-low-view-background-aligned.webp",
+    "reference": "assets/selected-20261028/wild-chicken-low-view-reference.webp",
+    "ours": "assets/selected-20261028/wild-chicken-low-view-ours.webp"
+  },
+  {
+    "id": "B08-F22",
+    "label": "Shopping bag hanging from a railing",
+    "tags": [
+      "Hanging",
+      "RealBokeh × Distinctions-646"
+    ],
+    "dataset": "RealBokeh × Distinctions-646",
+    "width": 1184,
+    "height": 880,
+    "instruction": "Hang the empty bag by both handles from the top rail inside the box, with the bag body in front of the ironwork.",
+    "group": "real-backgrounds",
+    "gallery": true,
+    "background": "assets/B08-F22-background-aligned.webp",
+    "reference": "assets/B08-F22-reference.webp",
+    "ours": "assets/B08-F22-ours.webp",
+    "nano_pro": "assets/selected-20261028/B08-F22-nano-pro.webp"
+  },
+  {
+    "id": "B02-F06",
+    "label": "Witch figurine on a stone wall",
+    "tags": [
+      "Real-image composition",
+      "RealBokeh × Distinctions-646"
+    ],
+    "dataset": "RealBokeh × Distinctions-646",
+    "width": 800,
+    "height": 595,
+    "instruction": "Place the witch figurine with pumpkin on the foreground stone wall top, to the right of the ivy and in front of the curved road.",
+    "group": "real-backgrounds",
+    "gallery": true,
+    "background": "assets/case-selector/real/B02-background.webp",
+    "reference": "assets/case-selector/real/F06-reference.webp",
+    "ours": "assets/case-selector/real/B02-F06-ours.webp"
+  },
+  {
+    "id": "B03-F02",
+    "label": "Cocktail glass on a wooden counter",
+    "tags": [
+      "Real-image composition",
+      "RealBokeh × Distinctions-646"
+    ],
+    "dataset": "RealBokeh × Distinctions-646",
+    "width": 800,
+    "height": 595,
+    "instruction": "Place the cocktail glass on the exposed wooden counter, in front of and to the right of the snail ornament.",
+    "group": "real-backgrounds",
+    "gallery": true,
+    "background": "assets/case-selector/real/B03-background.webp",
+    "reference": "assets/case-selector/real/F02-reference.webp",
+    "ours": "assets/case-selector/real/B03-F02-ours.webp"
+  },
+  {
+    "id": "B15-F11",
+    "label": "Teddy bear beside a feathered hat",
+    "tags": [
+      "Real-image composition",
+      "RealBokeh × Distinctions-646"
+    ],
+    "dataset": "RealBokeh × Distinctions-646",
+    "width": 800,
+    "height": 595,
+    "instruction": "Seat the teddy bear on the patterned tabletop to the right of the feathered hat and in front of the red toy car.",
+    "group": "real-backgrounds",
+    "gallery": true,
+    "background": "assets/case-selector/real/B15-background.webp",
+    "reference": "assets/case-selector/real/F11-reference.webp",
+    "ours": "assets/case-selector/real/B15-F11-ours.webp",
+    "nano_pro": "assets/selected-20261028/B15-F11-nano-pro.webp"
+  },
+  {
+    "id": "B16-F17",
+    "label": "Wine glass on a reflective tabletop",
+    "tags": [
+      "Real-image composition",
+      "RealBokeh × Distinctions-646"
+    ],
+    "dataset": "RealBokeh × Distinctions-646",
+    "width": 800,
+    "height": 595,
+    "instruction": "Place the red wine glass on the black glass tabletop in the boxed area, in front of the window reflection.",
+    "group": "real-backgrounds",
+    "gallery": true,
+    "background": "assets/case-selector/real/B16-background.webp",
+    "reference": "assets/case-selector/real/F17-reference.webp",
+    "ours": "assets/case-selector/real/B16-F17-ours.webp"
+  },
+  {
+    "id": "wild-case-9",
+    "label": "Rug beneath a sofa",
+    "tags": [
+      "PhysInsert-Bench-Wild"
+    ],
+    "dataset": "PhysInsert-Bench-Wild",
+    "width": 960,
+    "height": 960,
+    "instruction": "Place the rug flat on the wooden floor, positioned under the front legs of the sofa and the base of the floor lamp, matching the room's perspective and lighting.",
+    "group": "in-the-wild",
+    "gallery": true,
+    "background": "assets/selected-20261028/wild-case-9-background.webp",
+    "reference": "assets/selected-20261028/wild-case-9-reference.webp",
+    "ours": "assets/selected-20261028/wild-case-9-ours.webp"
+  },
+  {
+    "id": "wild-case-10",
+    "label": "Bar stool beside a kitchen island",
+    "tags": [
+      "PhysInsert-Bench-Wild"
+    ],
+    "dataset": "PhysInsert-Bench-Wild",
+    "width": 960,
+    "height": 960,
+    "instruction": "Place the bar stool on the wooden floor to the left of the kitchen island, aligned parallel to the other stool, with its legs making contact with the floor and casting a soft shadow.",
+    "group": "in-the-wild",
+    "gallery": true,
+    "background": "assets/selected-20261028/wild-case-10-background.webp",
+    "reference": "assets/selected-20261028/wild-case-10-reference.webp",
+    "ours": "assets/selected-20261028/wild-case-10-ours.webp"
+  },
+  {
+    "id": "wild-case-63",
+    "label": "Lion figurine on a wooden surface",
+    "tags": [
+      "PhysInsert-Bench-Wild"
+    ],
+    "dataset": "PhysInsert-Bench-Wild",
+    "width": 960,
+    "height": 714,
+    "instruction": "Place the lion figurine standing on the wooden surface in the foreground, facing slightly right. Ensure all four paws contact the wood, partially obscuring the black box and orange tags behind it, under soft, warm front-left lighting.",
+    "group": "in-the-wild",
+    "gallery": true,
+    "background": "assets/selected-20261028/wild-case-63-background-aligned.webp",
+    "reference": "assets/selected-20261028/wild-case-63-reference.webp",
+    "ours": "assets/selected-20261028/wild-case-63-ours.webp"
+  },
+  {
+    "id": "wild-case-3",
+    "label": "Velvet cushion on a sofa",
+    "tags": [
+      "PhysInsert-Bench-Wild"
+    ],
+    "dataset": "PhysInsert-Bench-Wild",
+    "width": 960,
+    "height": 960,
+    "instruction": "Place the round green cushion on the sofa seat, leaning against the square patterned pillow on its left, with soft shadows underneath.",
+    "group": "in-the-wild",
+    "gallery": true,
+    "background": "assets/selected-20261028/wild-case-3-background.webp",
+    "reference": "assets/selected-20261028/wild-case-3-reference.webp",
+    "ours": "assets/selected-20261028/wild-case-3-ours.webp"
+  },
+  {
+    "id": "wild-case-25",
+    "label": "Toy rabbit on a sunlit rock",
+    "tags": [
+      "PhysInsert-Bench-Wild"
+    ],
+    "dataset": "PhysInsert-Bench-Wild",
+    "width": 960,
+    "height": 640,
+    "instruction": "Place the toy rabbit on the sloping surface of the large foreground rock, angled slightly right, with its wheels resting on the stone under natural sunlight.",
+    "group": "in-the-wild",
+    "gallery": true,
+    "background": "assets/selected-20261028/wild-case-25-background.webp",
+    "reference": "assets/selected-20261028/wild-case-25-reference.webp",
+    "ours": "assets/selected-20261028/wild-case-25-ours.webp"
+  },
+  {
+    "id": "wild-case-87",
+    "label": "Plush octopus on a tabletop",
+    "tags": [
+      "PhysInsert-Bench-Wild"
+    ],
+    "dataset": "PhysInsert-Bench-Wild",
+    "width": 960,
+    "height": 960,
+    "instruction": "Insert the object shown in the provided reference images into the empty target scene. Place it near the center of the black mat on the foreground wooden table, with the small stack of books to its right. Object description: A light-blue plush octopus toy made of soft fabric, with a round body, simple black embroidered eyes, and eight short stuffed tentacles. Match the target scene's scale, perspective, lighting, shadows, and occlusion.",
+    "group": "in-the-wild",
+    "gallery": true,
+    "background": "assets/selected-20261028/wild-case-87-background.webp",
+    "reference": "assets/selected-20261028/wild-case-87-reference.webp",
+    "ours": "assets/selected-20261028/wild-case-87-ours.webp"
+  },
+  {
+    "id": "dreambooth-10",
+    "label": "Can",
+    "tags": [
+      "DreamBooth"
+    ],
+    "dataset": "DreamBooth",
+    "width": 800,
+    "height": 800,
+    "group": "dreambooth",
+    "gallery": true,
+    "background": "assets/case-selector/other/dreambooth-10-background.webp",
+    "reference": "assets/case-selector/other/dreambooth-10-reference.webp",
+    "ours": "assets/case-selector/other/dreambooth-10-ours.webp"
+  },
+  {
+    "id": "dreambooth-12",
+    "label": "Can",
+    "tags": [
+      "DreamBooth"
+    ],
+    "dataset": "DreamBooth",
+    "width": 800,
+    "height": 800,
+    "group": "dreambooth",
+    "gallery": true,
+    "background": "assets/case-selector/other/dreambooth-12-background.webp",
+    "reference": "assets/case-selector/other/dreambooth-12-reference.webp",
+    "ours": "assets/case-selector/other/dreambooth-12-ours.webp"
+  },
+  {
+    "id": "dreambooth-22",
+    "label": "Grey sloth plushie",
+    "tags": [
+      "DreamBooth"
+    ],
+    "dataset": "DreamBooth",
+    "width": 800,
+    "height": 800,
+    "group": "dreambooth",
+    "gallery": true,
+    "background": "assets/case-selector/other/dreambooth-22-background.webp",
+    "reference": "assets/case-selector/other/dreambooth-22-reference.webp",
+    "ours": "assets/case-selector/other/dreambooth-22-ours.webp"
+  },
+  {
+    "id": "dreambooth-26",
+    "label": "Dog",
+    "tags": [
+      "DreamBooth"
+    ],
+    "dataset": "DreamBooth",
+    "width": 784,
+    "height": 784,
+    "group": "dreambooth",
+    "gallery": true,
+    "background": "assets/case-selector/other/dreambooth-26-background.webp",
+    "reference": "assets/case-selector/other/dreambooth-26-reference.webp",
+    "ours": "assets/case-selector/other/dreambooth-26-ours.webp"
+  },
+  {
+    "id": "B05-F06",
+    "label": "Witch figurine on a windowsill",
+    "tags": [
+      "Viewpoint",
+      "RealBokeh × Distinctions-646"
+    ],
+    "dataset": "RealBokeh × Distinctions-646",
+    "width": 800,
+    "height": 595,
+    "instruction": "Place the witch figurine with pumpkin on the gray windowsill, immediately below and to the left of the green shutter.",
+    "group": "real-backgrounds",
+    "gallery": true,
+    "background": "assets/case-selector/real/B05-background.webp",
+    "reference": "assets/case-selector/real/F06-reference.webp",
+    "ours": "assets/case-selector/real/B05-F06-ours.webp",
+    "nano_pro": "assets/selected-20261028/B05-F06-nano-pro.webp"
+  },
+  {
+    "id": "B09-F12",
+    "label": "Teddy bear on a car hood",
+    "tags": [
+      "Real-image composition",
+      "RealBokeh × Distinctions-646"
+    ],
+    "dataset": "RealBokeh × Distinctions-646",
+    "width": 800,
+    "height": 595,
+    "instruction": "Seat the teddy bear on the red hood in front of the windshield, to the right of the blue tarp.",
+    "group": "real-backgrounds",
+    "gallery": false,
+    "background": "assets/case-selector/real/B09-background.webp",
+    "reference": "assets/case-selector/real/F12-reference.webp",
+    "ours": "assets/case-selector/real/B09-F12-ours.webp",
+    "nano_pro": "assets/selected-20261028/B09-F12-nano-pro.webp"
+  },
+  {
+    "id": "B16-F18",
+    "label": "Umbrella drink on a glass tabletop",
+    "tags": [
+      "Real-image composition",
+      "RealBokeh × Distinctions-646"
+    ],
+    "dataset": "RealBokeh × Distinctions-646",
+    "width": 800,
+    "height": 595,
+    "instruction": "Insert the umbrella drink in or near the original marked region. The insertion area is on the black glass tabletop at center-left, in front of and to the left of the red ring-shaped mold and stacked plates. The box center falls within the bright window reflection. A covered container and wooden tabletop are behind it, with an insulated cup, packaging, and other table items to the right.",
+    "group": "real-backgrounds",
+    "gallery": false,
+    "background": "assets/case-selector/real/B16-background.webp",
+    "reference": "assets/case-selector/real/F18-reference.webp",
+    "ours": "assets/case-selector/real/B16-F18-ours.webp",
+    "nano_pro": "assets/selected-20261028/B16-F18-nano-pro.webp"
+  }
+]

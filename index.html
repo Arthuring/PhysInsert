@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PhysInsert — Physically Plausible Object Insertion</title>
+<meta name="description" content="PhysInsert: physically plausible reference-based object insertion. Explore InsertWorld, the PhysInsert-Bench evaluation suite, and interactive qualitative results.">
+<meta name="theme-color" content="#fffcf6">
+<meta property="og:title" content="PhysInsert — Physically Plausible Object Insertion">
+<meta property="og:description" content="Geometric priors and bidirectional object–scene interactions.">
+<meta property="og:image" content="https://arthuring.github.io/PhysInsert/assets/wild-toy-ours.webp">
+<link rel="preload" href="assets/Caveat-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="icon" href="assets/apple-favicon-v2.png" type="image/png">
+<link rel="stylesheet" href="style.css?v=dataset-return-v1"><link rel="stylesheet" href="benchmark-chart.css"><link rel="stylesheet" href="reference-visuals.css"><link rel="stylesheet" href="result-gallery.css?v=detail-v2"><link rel="stylesheet" href="comparison-gallery.css?v=shadow-2s"><link rel="stylesheet" href="hero-showcase.css?v=authors-no-email-v1"><link rel="stylesheet" href="paper-motivation.css?v=three-panels-v1"><script src="hero-showcase.js?v=snappier-holds-v1" defer></script><link rel="stylesheet" href="benchmark-browser.css?v=curated-preview-v2"><script src="benchmark-browser.js?v=curated-preview-v2" defer></script><script src="app.js?v=windowsill-v1" defer></script><script src="resources.js?v=arxiv-only-v1" defer></script><script src="benchmark-chart.js?v=case-browser-v1" defer></script>
+<link rel="stylesheet" href="training-composition.css?v=balanced-v1"><script src="training-composition.js?v=balanced-v1" defer></script>
+<link rel="stylesheet" href="apple-example.css?v=matrix-v1"><script src="apple-example.js?v=environment-v1" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#results">Skip to visual results</a>
+<header class="site-header"><div class="nav-wrap">
+<a class="wordmark" href="#top"><img src="assets/apple-logo-v2.webp" alt="">PhysInsert</a>
+<button class="menu-toggle" aria-expanded="false" aria-controls="navigation" aria-label="Toggle navigation"><span></span><span></span></button>
+<nav id="navigation" aria-label="Main navigation"><a href="#dataset">Data &amp; benchmark</a><a href="#method">Method</a><a href="#results">Results</a><a href="#resources">Resources</a></nav>
+</div></header>
+<main id="top" class="container">
+<section class="hero hero-interactive" aria-labelledby="hero-title">
+<div class="hero-copy">
+<div class="hero-lead">
+<div class="hero-brand-signature">
+<img class="hero-brand-mark" src="assets/apple-logo-v2.webp" width="512" height="512" alt="PhysInsert apple logo" fetchpriority="high">
+<h1 id="hero-title"><span>Phys</span><span>Insert</span><svg viewBox="0 0 360 18" aria-hidden="true"><path d="M7 11C89 0 240 1 352 8M66 15C171 8 267 9 329 13"/></svg></h1>
+</div>
+<p class="hero-paper-title">Physically Plausible<br> Object Insertion</p>
+<p class="hero-paper-subtitle">with Geometric Priors and Bidirectional Object–Scene Interactions</p>
+<section class="hero-authorship" aria-label="Authors and affiliations">
+<ul class="hero-author-list" aria-label="Authors">
+<li>Yue Gong<sup>1,2,*</sup></li><li>Le Zhang<sup>2</sup></li><li>Rui Chen<sup>2</sup></li><li>Song Chang<sup>2</sup></li>
+<li>Xiaochao Qu<sup>2</sup></li><li>Luoqi Liu<sup>2</sup></li><li>Ting Liu<sup>2,†</sup></li><li>Yebin Liu<sup>3,†</sup></li>
+</ul>
+<div class="hero-affiliations">
+<p><sup>1</sup><span>School of Computer Science and Engineering, Beihang University</span></p>
+<p><sup>2</sup><span>MT Lab, Meitu Inc.</span></p>
+<p><sup>3</sup><span>Department of Automation, Tsinghua University</span></p>
+</div>
+<p class="hero-author-note"><sup>*</sup> This work was conducted during internship at MT Lab, Meitu Inc.</p>
+<p class="hero-author-note hero-correspondence"><sup>†</sup> Corresponding authors.</p>
+</section>
+</div>
+<div class="hero-links"><div id="resources" class="resource-links" aria-label="arXiv, code, data and models"></div><a class="hero-explore" href="#results">Explore the results <span aria-hidden="true">↓</span></a></div>
+</div>
+<div class="hero-showcase" aria-label="Explore three motivations from the paper">
+<div class="hero-tabs" role="tablist" aria-label="Physical consistency examples">
+<button id="hero-tab-lighting" role="tab" aria-selected="true" aria-controls="hero-example" data-hero-case="lighting"><span>01</span> Lighting</button>
+<button id="hero-tab-interaction" role="tab" aria-selected="false" aria-controls="hero-example" tabindex="-1" data-hero-case="interaction"><span>02</span> Interaction</button>
+<button id="hero-tab-viewpoint" role="tab" aria-selected="false" aria-controls="hero-example" tabindex="-1" data-hero-case="viewpoint"><span>03</span> Viewpoint</button>
+</div>
+<p class="hero-load-status" role="status" hidden></p>
+<div id="hero-example" role="tabpanel" aria-labelledby="hero-tab-lighting" tabindex="0">
+<div class="hero-workbench">
+<div class="hero-inputs">
+<button class="hero-input" id="hero-reference" data-image="assets/hero-lighting-reference.webp" data-title="Lighting · Object reference" aria-label="Enlarge object reference"><span class="hero-input-label">Object reference <span aria-hidden="true">↗</span></span><img src="assets/hero-lighting-reference.webp" width="800" height="668" alt="Juice carafe, glasses and apples under cool lighting."></button>
+<span class="hero-input-plus" aria-hidden="true">+</span>
+<button class="hero-input" id="hero-scene" data-image="assets/hero-lighting-scene.webp" data-title="Lighting · Target scene" aria-label="Enlarge target scene"><span class="hero-input-label">Target scene <span aria-hidden="true">↗</span></span><img src="assets/hero-lighting-scene.webp" width="800" height="800" alt="An empty sunlit wooden tabletop with window blinds."></button>
+<svg class="hero-input-arrow" viewBox="0 0 80 40" aria-hidden="true"><path d="M8 10C24 35 56 30 71 13M59 13L73 10L71 24"/></svg>
+</div>
+<div class="hero-output">
+<span id="hero-result-label" class="sr-only">PhysInsert result</span>
+<button id="hero-result" class="hero-result" data-image="assets/hero-lighting-ours.webp" data-title="Lighting · PhysInsert" aria-label="Enlarge PhysInsert result"><img id="hero-result-image" src="assets/hero-lighting-ours.webp" width="1024" height="800" fetchpriority="high" alt="PhysInsert adapts the inserted carafe, glasses and apples to the warm sunlight."><span class="hero-zoom" aria-hidden="true">↗</span></button>
+<div class="hero-scrubber" hidden><div class="hero-demo-controls" hidden><div class="hero-phase-controls" role="group" aria-label="View comparison state"><button type="button" data-hero-phase="paste" aria-pressed="false">Direct paste</button><input id="hero-blend-slider" type="range" min="0" max="100" step="0.1" value="0" aria-label="Blend direct paste with PhysInsert" aria-valuetext="0% PhysInsert" aria-describedby="hero-slider-help"><button type="button" data-hero-phase="ours" aria-pressed="true">PhysInsert</button></div><div class="hero-output-controls"><button class="hero-autoplay" type="button" aria-label="Pause automatic comparison" data-mode="pause"><span class="hero-play-icon" aria-hidden="true"></span><span class="hero-play-label">Pause</span></button><button class="hero-replay" type="button" aria-label="Replay this comparison" title="Replay this comparison">↻</button></div></div><span id="hero-slider-help" class="sr-only">Drag to compare. Adjusting the slider pauses automatic playback; press Play to resume.</span></div>
+<p class="hero-paste-note sr-only" hidden>Illustrative cut-and-paste · same reference, approximate placement.</p><span class="hero-demo-status sr-only" aria-live="off" aria-atomic="true"></span>
+</div>
+</div>
+<div class="hero-caption" aria-live="polite" aria-atomic="true"><span class="hero-caption-index" id="hero-caption-index">01 / 03</span><div><h2 id="hero-case-title">A new scene. A new light.</h2><p id="hero-case-description">Cool-lit reference objects take on the warm sunlight of their new surroundings.</p></div></div>
+</div>
+</div>
+</section>
+<section class="paper-motivation" aria-labelledby="motivation-title">
+<div class="paper-motivation-heading"><h2 id="motivation-title">Three keys to physical consistency</h2></div>
+<figure class="paper-motivation-figure">
+<button class="paper-motivation-image" data-figure="assets/paper-motivation-three-panels.webp" data-title="PhysInsert — motivation from the paper" aria-label="Enlarge the three motivation panels from the paper"><img src="assets/paper-motivation-three-panels.webp" width="3840" height="2391" loading="lazy" alt="The paper's three motivation panels: (a) Cross-environment, (b) Bidirectional interaction, and (c) Cross-view. Each includes the reference object and target scene, an appearance-only baseline, and the physically consistent PhysInsert result with the original annotations."></button>
+</figure>
+</section>
+<section id="abstract" class="abstract-section" aria-labelledby="abstract-title"><h2 id="abstract-title">Abstract</h2><p>We present <strong>PhysInsert</strong>, a framework for physically plausible reference-based object insertion that jointly adapts objects and their surrounding scenes. Existing methods often rely on masked inputs, generation-based pairs, or training pairs with limited viewpoint variation, leaving pose and illumination adaptation and bidirectional object–scene interactions insufficiently constrained. We construct the <strong>Insert World</strong> dataset with strictly aligned Blender-rendered counterfactual pairs and object references across viewpoints and lighting conditions. Building on these data, <em>Geometry-Guided Adaptation</em> couples a VGGT geometry stream with image and text streams under target-scene feature supervision to guide spatially consistent insertion. Complementary <em>2D Object–Scene Spatial Supervision</em> jointly supervises object occupancy and environmental changes while grounding spatial instructions in object regions through image–text attention. We introduce <strong>PhysInsert-Bench</strong> with dedicated cross-environment and cross-view cases requiring illumination and pose adaptation beyond appearance copying. Experiments on PhysInsert-Bench and DreamBooth demonstrate improved image fidelity; A user study further show more accurate placement and improved lighting integration, perspective, and pose plausibility.</p></section>
+<section class="dataset-section" id="dataset" aria-labelledby="dataset-title">
+<div class="section-heading centered"><span class="chapter-label">01 · Data &amp; evaluation</span><h2 id="dataset-title">InsertWorld &amp; PhysInsert-Bench</h2><p>Learning object–scene interactions from controlled counterfactual pairs.</p></div>
+<div class="dataset-overview"><div><h3>InsertWorld</h3><p>We start from complete 3D scenes and remove an existing object. Rendering both states under the same camera and lighting produces aligned supervision for the object and its effects on the scene.</p></div><div><p>Independent object references vary across viewpoints and illumination. Quality filtering and object deduplication retain suitable scene–object pairs for training.</p></div></div>
+<div class="dataset-stats"><div><strong>322</strong><span>training scenes</span></div><div><strong>1,710</strong><span>training objects</span></div><div><strong>12,951</strong><span>counterfactual scene pairs</span></div><div><strong>275,310</strong><span>object-reference images</span></div></div>
+<section class="training-composition" aria-labelledby="training-composition-title">
+<div class="training-heading"><div><h3 id="training-composition-title">Inside InsertWorld</h3><p>Explore scene types, object properties, and physical interactions.</p></div></div>
+<div id="training-explorer" class="training-interactive"><p class="training-loading">Loading the dataset explorer…</p></div>
+<noscript><p><a href="assets/dataset-composition-full.webp">View the dataset composition figure.</a></p></noscript>
+</section>
+<h3 class="construction-title">Constructing the paired data</h3>
+<figure class="construction-figure"><button class="figure-button" data-figure="assets/dataset.webp" data-title="InsertWorld construction pipeline" data-crop="pipeline" aria-label="Enlarge InsertWorld construction pipeline"><span class="pipeline-crop"><img src="assets/dataset.webp" loading="lazy" alt="InsertWorld construction: complete scenes, object removal, quality filtering, deduplication, scene augmentation and object references across viewpoints and lighting."></span><span class="figure-expand">View construction pipeline ↗</span></button><figcaption>Aligned with–without pairs capture object appearance, shadows, and reflections; independently rendered references provide variation in lighting and viewpoint.</figcaption></figure>
+<section id="apple-example" aria-label="Apple data construction example"><p class="chart-loading">Loading the complete construction example…</p></section>
+<div class="benchmark-intro"><div><h3>PhysInsert-Bench</h3><p>A held-out benchmark covering optical interactions and structural adaptation, with no training-scene or object overlap.</p></div><div class="benchmark-facts"><span><strong>400</strong> cases</span><span><strong>103</strong> scenes</span><span><strong>20</strong> physical tags</span></div></div>
+<div id="benchmark-chart"><p class="chart-loading">Loading benchmark composition…</p></div>
+<div class="benchmark-protocol"><p><strong>Optical · 180 cases</strong><br> 154 aligned-view cases and 26 cross-view challenges evaluate lighting and visible object–scene effects.</p><p><strong>Structural · 220 cases</strong><br> Independent reference viewpoints test spatial relationships, pose, contact, and support.</p></div>
+<section id="benchmark-browser" aria-label="Browse PhysInsert-Bench cases"><p>Loading benchmark previews…</p></section>
+<noscript><p>View all 400 benchmark case records in <a href="benchmark-cases.json">the case index</a>. Enable JavaScript for the image browser.</p></noscript>
+</section>
+<section class="method-section" id="method" aria-labelledby="method-title">
+<div class="section-heading centered"><span class="chapter-label">02 · Method</span><h2 id="method-title">PhysInsert: geometry and interaction</h2><p>Geometric priors meet bidirectional object–scene supervision.</p></div>
+<button class="figure-button" data-figure="assets/method.webp" data-title="PhysInsert architecture" aria-label="Enlarge PhysInsert architecture diagram"><img src="assets/method.webp" width="2200" height="977" loading="lazy" alt="PhysInsert architecture showing image, text and geometry streams, Geometry-Guided Adaptation, Counterfactual Object–Scene Supervision and Spatial Semantic Grounding."><span class="figure-expand">Click to enlarge ↗</span></button>
+<div class="method-points"><article class="green-point"><h3>Geometry-Guided Adaptation</h3><p>A VGGT-initialized stream brings scene geometry into the image and text denoising process.</p></article><article class="peach-point"><h3>Counterfactual supervision</h3><p>With–without scene pairs supervise the object and the effects it creates around itself.</p></article><article class="blue-point"><h3>Spatial Semantic Grounding</h3><p>Spatial-text attention connects placement instructions to the object region.</p></article></div>
+</section>
+<section id="results" class="visual-results" aria-labelledby="results-title">
+<div class="results-intro"><span class="chapter-label">03 · Qualitative evaluation</span><h2 id="results-title">Results across benchmarks and real scenes</h2><p>Choose an evaluation setting to explore selected results with object references and interactive before–after comparisons.</p></div>
+<div class="source-nav" role="tablist" aria-label="Result datasets">
+<button type="button" id="result-tab-real-backgrounds" class="source-link real" role="tab" aria-controls="real-backgrounds" aria-selected="true" tabindex="0">Real-image compositions <small>12</small></button>
+<button type="button" id="result-tab-physinsert-bench-results" class="source-link simulation" role="tab" aria-controls="physinsert-bench-results" aria-selected="false" tabindex="-1">PhysInsert-Bench <small>12</small></button>
+<button type="button" id="result-tab-in-the-wild" class="source-link wild" role="tab" aria-controls="in-the-wild" aria-selected="false" tabindex="-1">PhysInsert-Bench-Wild <small>12</small></button>
+<button type="button" id="result-tab-dreambooth" class="source-link dreambooth" role="tab" aria-controls="dreambooth" aria-selected="false" tabindex="-1">DreamBooth <small>12</small></button>
+</div>
+<p id="result-tab-status" class="sr-only" role="status" aria-live="polite"></p>
+<div id="result-groups"></div>
+</section>
+<section class="comparison-section framed-section" id="comparison" aria-labelledby="comparison-title">
+<div class="section-heading"><h2 id="comparison-title">Comparison with Nano Banana Pro</h2><p>9 real-image compositions · 1 PhysInsert-Bench-Wild case</p></div>
+<div class="comparison-tabs" id="comparison-tabs" role="group" aria-label="Choose comparison example"></div><div id="comparison-content"></div>
+</section>
+
+
+<section class="paper-section citation-section" id="paper" aria-labelledby="citation-title">
+<p id="citation-title" class="citation-invitation">If you find our work useful, we would appreciate a citation to our paper. <span class="citation-smile" aria-hidden="true">:)</span></p>
+<div class="citation-code"><div class="citation-code-heading"><span>BibTeX</span><span class="citation-status">Coming soon</span></div><pre aria-label="BibTeX citation — coming soon"><code></code></pre></div>
+</section>
+</main>
+<footer class="container"><a class="wordmark" href="#top"><img src="assets/apple-logo-v2.webp" alt="">PhysInsert</a><span>Objects and scenes, together.</span><a href="#top">Back to top ↑</a></footer>
+<dialog id="viewer-dialog" aria-labelledby="viewer-title"><div class="dialog-bar"><h2 id="viewer-title"></h2><button class="dialog-close" aria-label="Close image viewer">×</button></div><div id="viewer-content"></div></dialog>
+<noscript><p class="noscript">Enable JavaScript to explore the before-and-after results. The paper and method figures remain available.</p></noscript>
+</body></html>

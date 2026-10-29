@@ -1,0 +1,315 @@
+{
+  "title": "One object, paired scenes and varied references",
+  "description": "Explore the apple example from our data construction figure.",
+  "pairs": [
+    {
+      "id": "default",
+      "label": "Original view",
+      "with": "assets/apple-example/default-with.webp",
+      "without": "assets/apple-example/default-without.webp",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "id": "view_A",
+      "label": "Oblique view",
+      "with": "assets/apple-example/view_A-with.webp",
+      "without": "assets/apple-example/view_A-without.webp",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "id": "view_B",
+      "label": "Overhead view",
+      "with": "assets/apple-example/view_B-with.webp",
+      "without": "assets/apple-example/view_B-without.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  ],
+  "referenceMatrix": {
+    "views": [
+      {
+        "id": "front",
+        "label": "Front",
+        "thumbnail": "assets/apple-reference-matrix/front--white_world.webp"
+      },
+      {
+        "id": "left",
+        "label": "Left",
+        "thumbnail": "assets/apple-reference-matrix/left--white_world.webp"
+      },
+      {
+        "id": "right",
+        "label": "Right",
+        "thumbnail": "assets/apple-reference-matrix/right--white_world.webp"
+      },
+      {
+        "id": "back",
+        "label": "Back",
+        "thumbnail": "assets/apple-reference-matrix/back--white_world.webp"
+      },
+      {
+        "id": "high",
+        "label": "Top",
+        "thumbnail": "assets/apple-reference-matrix/high--white_world.webp"
+      },
+      {
+        "id": "three_quarter",
+        "label": "\u00be view",
+        "thumbnail": "assets/apple-reference-matrix/three_quarter--white_world.webp"
+      }
+    ],
+    "lights": [
+      {
+        "id": "blue_photo_studio",
+        "label": "Blue studio",
+        "preview": "assets/apple-reference-matrix/hdr-blue_photo_studio.webp"
+      },
+      {
+        "id": "photo_studio_loft_hall",
+        "label": "Daylight loft",
+        "preview": "assets/apple-reference-matrix/hdr-photo_studio_loft_hall.webp"
+      },
+      {
+        "id": "autumn_forest_04",
+        "label": "Autumn forest",
+        "preview": "assets/apple-reference-matrix/hdr-autumn_forest_04.webp"
+      },
+      {
+        "id": "snowy_park_01",
+        "label": "Snowy park",
+        "preview": "assets/apple-reference-matrix/hdr-snowy_park_01.webp"
+      },
+      {
+        "id": "kiara_5_noon",
+        "label": "Sunlight",
+        "preview": "assets/apple-reference-matrix/hdr-kiara_5_noon.webp"
+      },
+      {
+        "id": "colorful_studio",
+        "label": "Color studio",
+        "preview": "assets/apple-reference-matrix/hdr-colorful_studio.webp"
+      },
+      {
+        "id": "qwantani_sunset",
+        "label": "Lakeside sunset",
+        "preview": "assets/apple-reference-matrix/hdr-qwantani_sunset.webp"
+      }
+    ],
+    "images": [
+      {
+        "view": "front",
+        "light": "blue_photo_studio",
+        "image": "assets/apple-reference-environments/front--blue_photo_studio.webp"
+      },
+      {
+        "view": "front",
+        "light": "photo_studio_loft_hall",
+        "image": "assets/apple-reference-environments/front--photo_studio_loft_hall.webp"
+      },
+      {
+        "view": "front",
+        "light": "autumn_forest_04",
+        "image": "assets/apple-reference-environments/front--autumn_forest_04.webp"
+      },
+      {
+        "view": "front",
+        "light": "snowy_park_01",
+        "image": "assets/apple-reference-environments/front--snowy_park_01.webp"
+      },
+      {
+        "view": "front",
+        "light": "kiara_5_noon",
+        "image": "assets/apple-reference-environments/front--kiara_5_noon.webp"
+      },
+      {
+        "view": "front",
+        "light": "colorful_studio",
+        "image": "assets/apple-reference-environments/front--colorful_studio.webp"
+      },
+      {
+        "view": "front",
+        "light": "qwantani_sunset",
+        "image": "assets/apple-reference-environments/front--qwantani_sunset.webp"
+      },
+      {
+        "view": "left",
+        "light": "blue_photo_studio",
+        "image": "assets/apple-reference-environments/left--blue_photo_studio.webp"
+      },
+      {
+        "view": "left",
+        "light": "photo_studio_loft_hall",
+        "image": "assets/apple-reference-environments/left--photo_studio_loft_hall.webp"
+      },
+      {
+        "view": "left",
+        "light": "autumn_forest_04",
+        "image": "assets/apple-reference-environments/left--autumn_forest_04.webp"
+      },
+      {
+        "view": "left",
+        "light": "snowy_park_01",
+        "image": "assets/apple-reference-environments/left--snowy_park_01.webp"
+      },
+      {
+        "view": "left",
+        "light": "kiara_5_noon",
+        "image": "assets/apple-reference-environments/left--kiara_5_noon.webp"
+      },
+      {
+        "view": "left",
+        "light": "colorful_studio",
+        "image": "assets/apple-reference-environments/left--colorful_studio.webp"
+      },
+      {
+        "view": "left",
+        "light": "qwantani_sunset",
+        "image": "assets/apple-reference-environments/left--qwantani_sunset.webp"
+      },
+      {
+        "view": "right",
+        "light": "blue_photo_studio",
+        "image": "assets/apple-reference-environments/right--blue_photo_studio.webp"
+      },
+      {
+        "view": "right",
+        "light": "photo_studio_loft_hall",
+        "image": "assets/apple-reference-environments/right--photo_studio_loft_hall.webp"
+      },
+      {
+        "view": "right",
+        "light": "autumn_forest_04",
+        "image": "assets/apple-reference-environments/right--autumn_forest_04.webp"
+      },
+      {
+        "view": "right",
+        "light": "snowy_park_01",
+        "image": "assets/apple-reference-environments/right--snowy_park_01.webp"
+      },
+      {
+        "view": "right",
+        "light": "kiara_5_noon",
+        "image": "assets/apple-reference-environments/right--kiara_5_noon.webp"
+      },
+      {
+        "view": "right",
+        "light": "colorful_studio",
+        "image": "assets/apple-reference-environments/right--colorful_studio.webp"
+      },
+      {
+        "view": "right",
+        "light": "qwantani_sunset",
+        "image": "assets/apple-reference-environments/right--qwantani_sunset.webp"
+      },
+      {
+        "view": "back",
+        "light": "blue_photo_studio",
+        "image": "assets/apple-reference-environments/back--blue_photo_studio.webp"
+      },
+      {
+        "view": "back",
+        "light": "photo_studio_loft_hall",
+        "image": "assets/apple-reference-environments/back--photo_studio_loft_hall.webp"
+      },
+      {
+        "view": "back",
+        "light": "autumn_forest_04",
+        "image": "assets/apple-reference-environments/back--autumn_forest_04.webp"
+      },
+      {
+        "view": "back",
+        "light": "snowy_park_01",
+        "image": "assets/apple-reference-environments/back--snowy_park_01.webp"
+      },
+      {
+        "view": "back",
+        "light": "kiara_5_noon",
+        "image": "assets/apple-reference-environments/back--kiara_5_noon.webp"
+      },
+      {
+        "view": "back",
+        "light": "colorful_studio",
+        "image": "assets/apple-reference-environments/back--colorful_studio.webp"
+      },
+      {
+        "view": "back",
+        "light": "qwantani_sunset",
+        "image": "assets/apple-reference-environments/back--qwantani_sunset.webp"
+      },
+      {
+        "view": "high",
+        "light": "blue_photo_studio",
+        "image": "assets/apple-reference-environments/high--blue_photo_studio.webp"
+      },
+      {
+        "view": "high",
+        "light": "photo_studio_loft_hall",
+        "image": "assets/apple-reference-environments/high--photo_studio_loft_hall.webp"
+      },
+      {
+        "view": "high",
+        "light": "autumn_forest_04",
+        "image": "assets/apple-reference-environments/high--autumn_forest_04.webp"
+      },
+      {
+        "view": "high",
+        "light": "snowy_park_01",
+        "image": "assets/apple-reference-environments/high--snowy_park_01.webp"
+      },
+      {
+        "view": "high",
+        "light": "kiara_5_noon",
+        "image": "assets/apple-reference-environments/high--kiara_5_noon.webp"
+      },
+      {
+        "view": "high",
+        "light": "colorful_studio",
+        "image": "assets/apple-reference-environments/high--colorful_studio.webp"
+      },
+      {
+        "view": "high",
+        "light": "qwantani_sunset",
+        "image": "assets/apple-reference-environments/high--qwantani_sunset.webp"
+      },
+      {
+        "view": "three_quarter",
+        "light": "blue_photo_studio",
+        "image": "assets/apple-reference-environments/three_quarter--blue_photo_studio.webp"
+      },
+      {
+        "view": "three_quarter",
+        "light": "photo_studio_loft_hall",
+        "image": "assets/apple-reference-environments/three_quarter--photo_studio_loft_hall.webp"
+      },
+      {
+        "view": "three_quarter",
+        "light": "autumn_forest_04",
+        "image": "assets/apple-reference-environments/three_quarter--autumn_forest_04.webp"
+      },
+      {
+        "view": "three_quarter",
+        "light": "snowy_park_01",
+        "image": "assets/apple-reference-environments/three_quarter--snowy_park_01.webp"
+      },
+      {
+        "view": "three_quarter",
+        "light": "kiara_5_noon",
+        "image": "assets/apple-reference-environments/three_quarter--kiara_5_noon.webp"
+      },
+      {
+        "view": "three_quarter",
+        "light": "colorful_studio",
+        "image": "assets/apple-reference-environments/three_quarter--colorful_studio.webp"
+      },
+      {
+        "view": "three_quarter",
+        "light": "qwantani_sunset",
+        "image": "assets/apple-reference-environments/three_quarter--qwantani_sunset.webp"
+      }
+    ],
+    "defaultView": "left",
+    "defaultLight": "kiara_5_noon"
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "arxiv",
+    "label": "arXiv",
+    "kind": "arxiv",
+    "url": null
+  },
+  {
+    "id": "code",
+    "label": "Code",
+    "kind": "code",
+    "url": null
+  },
+  {
+    "id": "data",
+    "label": "Hugging Face \u00b7 Data",
+    "kind": "data",
+    "url": null
+  },
+  {
+    "id": "model",
+    "label": "Hugging Face \u00b7 Model",
+    "kind": "model",
+    "url": null
+  }
+]
